@@ -1,0 +1,58 @@
+import java.util.Scanner;
+public class Level1{
+    public static void NameLength(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter Your Name:");
+        String name = sc.nextLine();
+        int length = name.length();
+        System.out.println("Your name's length is"+" "+length);
+    }
+    
+    public static void Postcode(String[] args)
+    {
+        System.out.println("Enter Your Postcode:");
+        Scanner sc = new Scanner(System.in);
+        String Postcode = sc.nextLine();
+        String UpperCase = Postcode.toUpperCase();
+        System.out.println(UpperCase);
+    }
+
+    public static void Password(String[] args)
+    {
+        System.out.println("Enter Your Password:");
+        Scanner sc = new Scanner(System.in);
+        String Password1 = sc.nextLine();
+        System.out.println("Re-Enter Your Password:");
+        String Password2 = sc.nextLine();
+        if(Password1.equals(Password2)); 
+        System.out.println("Password Verified");{
+           
+            
+            System.out.println("Re-Enter Password");
+        }
+        
+    }
+    
+    public static void name(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter your first name");
+        String FirstName = sc.nextLine();
+        System.out.println("Enter your last name");
+        String LastName = sc.nextLine();
+        System.out.println("Hello " +LastName);
+    }
+    
+    public static void initials(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter your first name");
+        String FirstName = sc.nextLine();
+        System.out.println("Enter your middle name");
+        String MiddleName = sc.nextLine();
+        System.out.println("Enter your last name");
+        String LastName = sc.nextLine();
+}
+}
+        
